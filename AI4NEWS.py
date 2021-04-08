@@ -3,7 +3,7 @@ from newsapi import NewsApiClient
 from datetime import datetime
 from gtts import gTTS
 
-
+st.set_wide_mode()
 
 #ottengo sorgeti notizie in Italia
 def nomi_sorgenti():
