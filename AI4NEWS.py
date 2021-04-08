@@ -53,7 +53,7 @@ def controllaCampo(campo):
 		return "Non Disponibile"
 		
 def stampa_Notizie(notizie_da_Stapare):
-	st.markdown("<br><br>",unsafe_allow_html=True)
+
 	for n in notizie_da_Stapare["articles"]:
 		titolo = controllaCampo(n["title"])
 		descrizione = controllaCampo(n["description"])
@@ -96,6 +96,7 @@ Scelta = st.selectbox("Seleziona quali notizie vedere",Scelte)
 
 
 if Scelta == "Ultime Notizie" :
+	st.markdown("<br><br>",unsafe_allow_html=True)
 	for a in argomenti_selezionati:
 		all_articles = newsapi.get_everything(q=a,
                                      language='it',
@@ -105,6 +106,7 @@ if Scelta == "Ultime Notizie" :
 		
 
 elif Scelta == "Notizie del Momento" :
+	st.markdown("<br><br>",unsafe_allow_html=True)
 	for a in argomenti_selezionati:
 		all_articles = newsapi2.get_everything(q=a,
                                      language='it',
@@ -113,6 +115,7 @@ elif Scelta == "Notizie del Momento" :
 		stampa_Notizie(all_articles)
 	
 elif Scelta == "Notizie Popolari" :
+	st.markdown("<br><br>",unsafe_allow_html=True)
 	for a in argomenti_selezionati:
 		all_articles = newsapi3.get_everything(q=a,
                                      language='it',
@@ -146,6 +149,7 @@ elif Scelta == "Cerca le notizie su ciò che ti interessa":
 		
 		if button_clicked :
 			print(testo_ricerca,sorgenti_selezionate,sort,risultati_ricerca)
+			st.markdown("<br><br>",unsafe_allow_html=True)
 			all_articles = newsapi4.get_everything(q=testo_ricerca,
 		                              sources=s_s,
 		                              sort_by=sort,
@@ -156,5 +160,6 @@ elif Scelta == "Cerca le notizie su ciò che ti interessa":
 	else:
 		if button_clicked :
 			top_headlines = newsapi5.get_everything(q=testo_ricerca,page_size=10,language='it')
+			st.markdown("<br><br>",unsafe_allow_html=True)
 			stampa_Notizie(top_headlines)
 	
