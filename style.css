@@ -1,0 +1,15 @@
+
+.stButton>button {
+    border-style: solid;
+    border-color: #92a8d1;
+    margin-top:26px;
+    border-radius: 50%;
+    height: 3.2em;
+    width: 3.3em;
+}
+
+.stTextInput>div>div>input {
+
+}
+
+
