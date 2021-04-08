@@ -17,7 +17,6 @@ def nomi_sorgenti():
 
 #carico token accesso Api #1
 newsapi = NewsApiClient(api_key='d78564fc55a6473c9597520ee6a386e8')
-sorgenti = nomi_sorgenti()
 
 #carico token accesso Api #2
 newsapi2 = NewsApiClient(api_key='e73ec2d966a7418f86ea1ee40e808da9')
