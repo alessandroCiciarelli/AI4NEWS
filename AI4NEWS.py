@@ -53,6 +53,7 @@ def controllaCampo(campo):
 		return "Non Disponibile"
 		
 def stampa_Notizie(notizie_da_Stapare):
+	st.markdown("<br><br>",unsafe_allow_html=True)
 	for n in notizie_da_Stapare["articles"]:
 		titolo = controllaCampo(n["title"])
 		descrizione = controllaCampo(n["description"])
@@ -68,10 +69,10 @@ def stampa_Notizie(notizie_da_Stapare):
 			st.markdown("<div class='col-12 news'>\
 			<div class='row'>\
 			<div class='col-7'><br><img src='" + immagine + "' class='figure-img img-fluid rounded'><br></div>\
-			<div class='col-5'><br><h6>Info Notizia<br><br></h6><a href='"+ link + "' class=''>Link Notizia Completa</a><br><br><p>Data : " + data +"</p><p>Autore : " + autore +"</p></div>", unsafe_allow_html=True)
-			st.markdown("<p>Ascolta la descrizione della notizia</p>",unsafe_allow_html=True)
+			<div class='col-5'><br><h6>Info Notizia<br><br></h6><br><p>Data : " + data[:10] +"</p><p>Autore : " + autore +"</p><a href='"+ link + "' class=''>Link Notizia Completa</a></div>", unsafe_allow_html=True)
+			st.markdown("<br><p>Ascolta la descrizione della notizia</p>",unsafe_allow_html=True)
 			st.audio(audio_bytes, format='audio/mp3')
-			st.markdown("<br><hr style='width:50%'><br>",unsafe_allow_html=True)
+			st.markdown("<br>",unsafe_allow_html=True)
 			
 
 local_css("style.css")
