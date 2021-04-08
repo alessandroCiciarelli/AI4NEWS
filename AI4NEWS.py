@@ -16,7 +16,7 @@ def nomi_sorgenti():
 	return nomi_sorgenti	
 
 #carico token accesso Api #1
-newsapi = NewsApiClient(api_key='7a8083f426c14292902588162ba1468d')
+newsapi = NewsApiClient(api_key='7f10c40670f8482f8bcdda424f763e8e')
 sorgenti = nomi_sorgenti()
 
 #carico token accesso Api #2
@@ -29,7 +29,7 @@ newsapi3 = NewsApiClient(api_key='e6a433d56f744e9bb49d14c9ac86aa3c')
 newsapi4 = NewsApiClient(api_key='d78564fc55a6473c9597520ee6a386e8')
 
 #carico token accesso Api #5
-newsapi5 = NewsApiClient(api_key='7f10c40670f8482f8bcdda424f763e8e')
+newsapi5 = NewsApiClient(api_key='7a8083f426c14292902588162ba1468d')
 
 
 st.markdown("<h1 style='text-align: center; background-color:black; font-size:28px;'><bold style='color:rgb(102, 255, 51);'> A.I. <bold style='color:white;'> FOR <bold style='color:rgb(255, 26, 26);'> NEWS </bold></bold></bold></h1>", unsafe_allow_html=True)
