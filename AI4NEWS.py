@@ -3,7 +3,7 @@ from newsapi import NewsApiClient
 from datetime import datetime
 from gtts import gTTS
 
-streamlit.set_page_config(page_title="Le news Intelligenti", page_icon=None, layout='wide', initial_sidebar_state='auto')
+st.set_page_config(page_title="Le news Intelligenti", page_icon=None, layout='wide', initial_sidebar_state='auto')
 
 
 #ottengo sorgeti notizie in Italia
