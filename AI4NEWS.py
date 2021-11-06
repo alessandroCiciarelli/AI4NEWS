@@ -61,7 +61,7 @@ def stampa_Notizie(notizie_da_Stapare):
 		link = controllaCampo(n["url"])
 		autore = controllaCampo(n["author"])
 		immagine = controllaCampo(n["urlToImage"])
-		with st.beta_expander(titolo):
+		with st.expander(titolo):
 			tts = gTTS(text=descrizione, lang="it", slow=False)
 			tts.save("notizia.mp3")
 			audio_file = open('notizia.mp3', 'rb')
