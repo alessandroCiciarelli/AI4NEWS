@@ -1,4 +1,4 @@
 newsapi-python
-streamlit==0.79.0
+streamlit
 gTTS==2.2.2
 
