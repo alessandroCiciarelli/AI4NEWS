@@ -177,13 +177,13 @@ elif Scelta == "Notizie Popolari" :
 	
 	
 elif Scelta == "Cerca le notizie su ciò che ti interessa":
-	col1,col2 = st.beta_columns([5,1])
+	col1,col2 = st.columns([5,1])
 	testo_ricerca = col1.text_input("Su quale agomento desideri leggere le ultime notizie ? ","Intelligenza Artificiale")
 	button_clicked = col2.button("Cerca")
 	ricerca_avanzata = st.checkbox("Abilita ricerca avanzata")
 	if ricerca_avanzata:
 		sorgenti = nomi_sorgenti()
-		col3,col4 = st.beta_columns(2)
+		col3,col4 = st.columns(2)
 		sorgenti_selezionate = col3.multiselect('Seleziona una o più sorgenti per le ultime notizie', sorgenti,default=sorgenti)
 		s_s = ""
 		for s in sorgenti_selezionate:
@@ -197,7 +197,7 @@ elif Scelta == "Cerca le notizie su ciò che ti interessa":
 		elif(sort == 'Popolarità'):
 			sort='popularity'
 			
-		risultati_ricerca = st.number_input("Seleziona Numero Massimo notizie ",1,15,5,1)
+		risultati_ricerca = st.number_input("Seleziona Numero Massimo notizie ",1,10,5,1)
 		
 		if button_clicked :
 			print(testo_ricerca,sorgenti_selezionate,sort,risultati_ricerca)
