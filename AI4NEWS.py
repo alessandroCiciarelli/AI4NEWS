@@ -32,7 +32,11 @@ newsapi5 = NewsApiClient(api_key='7a8083f426c14292902588162ba1468d')
 
 
 st.markdown("<h1 style='text-align: center; background-color:black; font-size:28px;'><b style='color:rgb(102, 255, 51);'> A.I. <b style='color:white;'> FOR <b style='color:rgb(255, 26, 26);'> NEWS </b></b></b></h1>", unsafe_allow_html=True)
-st.write('<p style="text-align: center;font-size:15px;" ><b>Le notizie più importanti e più popolari sull\'intelligenza artificiale, accuratamente selezionate dai nostri algoritmi dotati di I.A. solo per te</b><p>', unsafe_allow_html=True)
+st.write('<p style="text-align: left;font-size:15px;" ><b>Le notizie più importanti e più popolari sull\'intelligenza artificiale, accuratamente selezionate dai nostri algoritmi dotati di I.A. solo per te</b><p>', unsafe_allow_html=True)
+
+st.markdown('<iframe width="100%" height="1600" src="https://rss.app/embed/v1/magazine/C3ws5QRv5zQnUXwb" frameborder="0"></iframe><br>', unsafe_allow_html=True)
+
+
 
 def local_css(file_name):
     with open(file_name) as f:
