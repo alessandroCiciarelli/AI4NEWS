@@ -25,7 +25,9 @@
 
 }
 
-
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
 
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
