@@ -96,7 +96,7 @@ def stampa_Notizie_new(notizie_da_Stapare):
 		st.markdown("<center>\
 		<div class='row' style='margin-bottom:15px;width:90%;padding:15px;margin-bottom: 10px;'>\
   		<h3 style='text-align: left;'>"+titolo+"</h3><br><br><div class='row'>\
-  		<div class='col-sm-5'><img src='" + immagine + "' class='figure-img img-fluid rounded' style=''>\
+  		<div class='col-sm-5'><img src='" + immagine + "' class='figure-img img-fluid rounded img-hover-zoom--slowmo' style=''>\
 		</div><div class='col-sm-7' style='text-align: left;'>\
 		<br><h5><b>Info Notizia</b></h5>\
 		<p><b>Data :</b>" + data[:10] +"</p>\
