@@ -91,10 +91,10 @@ def stampa_Notizie_new(notizie_da_Stapare):
 		#audio_bytes = audio_file.read()
 		st.markdown("<center><div class='row' style='width:90%;border:3px inset #b4b6b7;border-width:3px;border-style:inset;border-color:#b4b6b7;border-radius:10px 25px 25px 30px;-moz-border-radius:10px 25px 25px 30px;-webkit-border-radius:10px 25px 25px 30px;padding:15px;margin-bottom: 25px;'>\
 		<h3 style='text-align: left;'>"+titolo+"</h3><div class='row'  style='text-align: center; >\
-		<div class='col-sm-12 col-6' style='text-align: center;'><br>\
+		<div class='col-5' style='text-align: center;padding:15px;'><br>\
 		<img src='" + immagine + "' class='figure-img img-fluid rounded'><br>\
 		</div>\
-		<div class='col-sm-12 col-6' style='text-align: left;'>\
+		<div class='col-7' style='text-align: left;'>\
 		<br>\
 		<h5><b>Info Notizia</b></h5>\
 		<p><b>Data :</b>" + data[:10] +"</p>\
