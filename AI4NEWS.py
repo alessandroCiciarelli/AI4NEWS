@@ -106,7 +106,7 @@ def stampa_Notizie_new(notizie_da_Stapare):
 local_css("style.css")
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
-argomenti = ["Intelligenza Artificiale",
+argomenti_selezionati = ["Intelligenza Artificiale",
 	        "Machine Learning",
 		"Robotica",
 		"Realtà virtuale",
@@ -115,7 +115,7 @@ argomenti = ["Intelligenza Artificiale",
 		"Scienza dei dati",
 		"Criptovalute",
 		"Big tech"]
-argomenti_selezionati = st.multiselect('Seleziona uno o più argomenti per leggere le ultime notizie sull\'intelligenza artificiale e rimanere aggiornato sugli ultimi sviluppi', argomenti,default=argomenti)
+#argomenti_selezionati = st.multiselect('Seleziona uno o più argomenti per leggere le ultime notizie sull\'intelligenza artificiale e rimanere aggiornato sugli ultimi sviluppi', argomenti,default=argomenti)
 
 
 Scelte = ["Notizie del Momento","Notizie Popolari","Ultime Notizie","Cerca le notizie su ciò che ti interessa"]
