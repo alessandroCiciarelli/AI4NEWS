@@ -90,13 +90,13 @@ def stampa_Notizie_new(notizie_da_Stapare):
 		#audio_file = open('notizia'+str(i)+'.mp3', 'rb')
 		#audio_bytes = audio_file.read()
 		st.markdown("<center>\
-		<div class='row' style='width:90%;border:3px inset #b4b6b7;border-width:3px;border-style:inset;border-color:#b4b6b7;border-radius:10px 25px 25px 30px;-moz-border-radius:10px 25px 25px 30px;-webkit-border-radius:10px 25px 25px 30px;padding:15px;margin-bottom: 25px;'>\
+		<div class='row' style='border:3px inset #b4b6b7;border-width:3px;border-style:inset;border-color:#b4b6b7;border-radius:10px 25px 25px 30px;-moz-border-radius:10px 25px 25px 30px;-webkit-border-radius:10px 25px 25px 30px;padding:15px;margin-bottom: 25px;'>\
   		<h3 style='text-align: left;'>"+titolo+"</h3><div class='row'  style='text-align: center; >\
 		<div class='col-sm-8' style='text-align: left;'>\
-		<h5><b>Info Notizia</b></h5>\
-		<p><b>Data :</b>" + data[:10] +"</p>\
-		<p><b>Autore : </b>" + autore +"</p>\
-		<p><b>Descrizione breve : </b>" + descrizione +"</p>\
+		<h5><b>Info Notizia</b></h5><br>\
+		<p><b>Data :</b>" + data[:10] +"</p><br>\
+		<p><b>Autore : </b>" + autore +"</p><br>\
+		<p><b>Descrizione breve : </b>" + descrizione +"</p><br>\
 		<b>Vuoi leggere tutta la notizia : </b><a href='"+ link + "' class=''>Link Notizia Completa</a>\
 		</div>\
   		<div class='col-sm-4'><img src='" + immagine + "' class='figure-img img-fluid rounded' style=''>\
