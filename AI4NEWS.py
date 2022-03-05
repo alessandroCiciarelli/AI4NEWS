@@ -34,7 +34,7 @@ newsapi5 = NewsApiClient(api_key='7a8083f426c14292902588162ba1468d')
 st.markdown("<h1 style='text-align: center; background-color:black; font-size:28px;'><b style='color:rgb(102, 255, 51);'> A.I. <b style='color:white;'> FOR <b style='color:rgb(255, 26, 26);'> NEWS </b></b></b></h1>", unsafe_allow_html=True)
 st.write('<p style="text-align: left;font-size:15px;" ><b>Le notizie più importanti e più popolari sull\'intelligenza artificiale, accuratamente selezionate dai nostri algoritmi dotati di I.A. solo per te</b><p>', unsafe_allow_html=True)
 
-st.markdown('<iframe width="100%" height="1450px" src="https://rss.app/embed/v1/magazine/C3ws5QRv5zQnUXwb" frameborder="0"></iframe><br>', unsafe_allow_html=True)
+st.markdown('<iframe width="100%" height="900px" src="https://rss.app/embed/v1/magazine/C3ws5QRv5zQnUXwb" frameborder="0"></iframe><br>', unsafe_allow_html=True)
 
 
 
@@ -94,10 +94,10 @@ def stampa_Notizie_new(notizie_da_Stapare):
 		#audio_file = open('notizia'+str(i)+'.mp3', 'rb')
 		#audio_bytes = audio_file.read()
 		st.markdown("<center>\
-		<div class='row' style='margin-bottom:15px;width:90%;border:3px inset #b4b6b7;border-width:3px;border-style:inset;border-color:#b4b6b7;padding:15px;margin-bottom: 10px;'>\
+		<div class='row' style='margin-bottom:15px;width:90%;border-top:3px inset #b4b6b7;border-bottom:3px inset #b4b6b7;border-width:3px;border-style:inset;border-color:#b4b6b7;padding:15px;margin-bottom: 10px;'>\
   		<h3 style='text-align: left;'>"+titolo+"</h3><br><br><div class='row'>\
-  		<div class='col-sm-4'><img src='" + immagine + "' class='figure-img img-fluid rounded' style=''>\
-		</div><div class='col-sm-8' style='text-align: left;'>\
+  		<div class='col-sm-5'><img src='" + immagine + "' class='figure-img img-fluid rounded' style=''>\
+		</div><div class='col-sm-7' style='text-align: left;'>\
 		<br><h5><b>Info Notizia</b></h5>\
 		<p><b>Data :</b>" + data[:10] +"</p>\
 		<p><b>Autore : </b>" + autore +"</p>\
