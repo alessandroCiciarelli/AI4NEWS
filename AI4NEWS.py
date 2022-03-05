@@ -41,7 +41,7 @@ st.markdown('\
 </script>', unsafe_allow_html=True)
 
 
-st.markdown('<iframe width="100%" height="1620px" src="https://rss.app/embed/v1/magazine/C3ws5QRv5zQnUXwb" onload="resizeIframe(this)" frameborder="0"></iframe><br>', unsafe_allow_html=True)
+st.markdown('<iframe width="100%" src="https://rss.app/embed/v1/magazine/C3ws5QRv5zQnUXwb" onload="resizeIframe(this)" frameborder="0"></iframe><br>', unsafe_allow_html=True)
 
 
 
