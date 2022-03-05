@@ -89,9 +89,9 @@ def stampa_Notizie_new(notizie_da_Stapare):
 		#tts.save("notizia"+str(i)+".mp3")
 		#audio_file = open('notizia'+str(i)+'.mp3', 'rb')
 		#audio_bytes = audio_file.read()
-		st.markdown("<center><div class='row' style='width:90%;border:3px inset #b4b6b7;border-width:3px;border-style:inset;border-color:#b4b6b7;border-radius:10px 25px 25px 30px;-moz-border-radius:10px 25px 25px 30px;-webkit-border-radius:10px 25px 25px 30px;padding:15px;margin-bottom: 25px;'>\
+		st.markdown("<center><div class='' style='width:90%;border:3px inset #b4b6b7;border-width:3px;border-style:inset;border-color:#b4b6b7;border-radius:10px 25px 25px 30px;-moz-border-radius:10px 25px 25px 30px;-webkit-border-radius:10px 25px 25px 30px;padding:15px;margin-bottom: 25px;'>\
 		<h3 style='text-align: left;'>"+titolo+"</h3><div class='row'  style='text-align: center; >\
-		<div class='col' style='text-align: center;padding:15px;'><br>\
+		<br><div class='col' style='text-align: center;padding:15px;'><br>\
 		<img src='" + immagine + "' class='figure-img img-fluid rounded' style='height:200px'><br>\
 		</div>\
 		<div class='col' style='text-align: left;'>\
