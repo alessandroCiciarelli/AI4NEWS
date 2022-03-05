@@ -90,7 +90,7 @@ def stampa_Notizie_new(notizie_da_Stapare):
 		#audio_file = open('notizia'+str(i)+'.mp3', 'rb')
 		#audio_bytes = audio_file.read()
 		st.markdown("<center>\
-		<div class='row'>\
+		<div class='row' style='width:90%;'>\
   		<h3 style='text-align: left;'>"+titolo+"</h3><br><div class='row' >\
 		<div class='col-sm-8' style='text-align: left;'>\
 		<h5><b>Info Notizia</b></h5>\
