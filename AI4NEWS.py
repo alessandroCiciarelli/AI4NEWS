@@ -92,14 +92,13 @@ def stampa_Notizie_new(notizie_da_Stapare):
 		st.markdown("<center>\
 		<div class='row' style='width:90%;border:3px inset #b4b6b7;border-width:3px;border-style:inset;border-color:#b4b6b7;border-radius:10px 25px 25px 30px;-moz-border-radius:10px 25px 25px 30px;-webkit-border-radius:10px 25px 25px 30px;padding:15px;margin-bottom: 10px;'>\
   		<h3 style='text-align: left;'>"+titolo+"</h3><br><br><br>\
-		<div class='col-sm-8' style='text-align: left;'>\
+  		<div class='col-sm-4'><img src='" + immagine + "' class='figure-img img-fluid rounded' style=''>\
+		</div><div class='col-sm-8' style='text-align: left;'>\
 		<br><h5><b>Info Notizia</b></h5>\
 		<p><b>Data :</b>" + data[:10] +"</p>\
 		<p><b>Autore : </b>" + autore +"</p>\
 		<p><b>Descrizione breve : </b>" + descrizione +"</p>\
 		<b>Vuoi leggere tutta la notizia : </b><a href='"+ link + "' class=''>Link Notizia Completa</a>\
-		</div>\
-  		<div class='col-sm-4'><img src='" + immagine + "' class='figure-img img-fluid rounded' style=''>\
 		</div>" + 
 		"""<center><br><hr><br><div style='margin:auto;text-align: center;' class'row'>
 		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.intelligenzaartificialeitalia.net%2Fnewsintelligenzaartificiale" target="_blank" rel="noopener" aria-label="Condividi su Facebook">
