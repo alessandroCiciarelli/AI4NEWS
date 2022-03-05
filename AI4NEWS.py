@@ -94,7 +94,7 @@ def stampa_Notizie_new(notizie_da_Stapare):
 		<br><div class='' style='text-align: center;padding:15px;'><br>\
 		<img src='" + immagine + "' class='figure-img img-fluid rounded' style=''>\
 		</div>\
-		<div class='col' style='text-align: left;'>\
+		<div class='' style='text-align: left;'>\
 		<br>\
 		<h5><b>Info Notizia</b></h5>\
 		<p><b>Data :</b>" + data[:10] +"</p>\
