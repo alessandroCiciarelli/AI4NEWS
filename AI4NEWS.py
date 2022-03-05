@@ -94,7 +94,7 @@ def stampa_Notizie_new(notizie_da_Stapare):
 		#audio_file = open('notizia'+str(i)+'.mp3', 'rb')
 		#audio_bytes = audio_file.read()
 		st.markdown("<center>\
-		<div class='row' style='margin-bottom:15px;width:90%;border-top:3px inset #b4b6b7;border-bottom:3px inset #b4b6b7;border-width:3px;border-style:inset;border-color:#b4b6b7;padding:15px;margin-bottom: 10px;'>\
+		<div class='row' style='margin-bottom:15px;width:90%;padding:15px;margin-bottom: 10px;'>\
   		<h3 style='text-align: left;'>"+titolo+"</h3><br><br><div class='row'>\
   		<div class='col-sm-5'><img src='" + immagine + "' class='figure-img img-fluid rounded' style=''>\
 		</div><div class='col-sm-7' style='text-align: left;'>\
@@ -102,8 +102,8 @@ def stampa_Notizie_new(notizie_da_Stapare):
 		<p><b>Data :</b>" + data[:10] +"</p>\
 		<p><b>Autore : </b>" + autore +"</p>\
 		<p><b>Descrizione breve : </b>" + descrizione +"</p>\
-		<b>Vuoi leggere tutta la notizia : </b><a href='"+ link + "' class=''>Link Notizia Completa</a>\
-		</div>" , unsafe_allow_html=True)
+		<b>Vuoi leggere tutta la notizia ? </b><a href='"+ link + "' class=''>Link Notizia Completa</a>\
+		</div><br><hr><br>" , unsafe_allow_html=True)
 		#st.audio(audio_bytes, format='audio/mp3')
 		#st.markdown("<br>",unsafe_allow_html=True)
 
