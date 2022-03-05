@@ -104,6 +104,7 @@ def stampa_Notizie_new(notizie_da_Stapare):
 		<p><b>Descrizione breve : </b>" + descrizione +"</p>\
 		<b>Vuoi leggere tutta la notizia ? </b><a href='"+ link + "' class=''>Link Notizia Completa</a>\
 		</div><br>" , unsafe_allow_html=True)
+		st.markdown("<hr style='border-top: 1px solid #8c8b8b;' />")
 		#st.audio(audio_bytes, format='audio/mp3')
 		#st.markdown("<br>",unsafe_allow_html=True)
 
