@@ -31,7 +31,7 @@ newsapi4 = NewsApiClient(api_key='7f10c40670f8482f8bcdda424f763e8e')
 newsapi5 = NewsApiClient(api_key='7a8083f426c14292902588162ba1468d')
 
 
-st.markdown("<h1 style='text-align: center; background-color:black; font-size:28px;'><b style='color:rgb(102, 255, 51);'> A.I. <b style='color:white;'> FOR <b style='color:rgb(255, 26, 26);'> NEWS </b></b></b></h1>", unsafe_allow_html=True)
+#st.markdown("<h1 style='text-align: center; background-color:black; font-size:28px;'><b style='color:rgb(102, 255, 51);'> A.I. <b style='color:white;'> FOR <b style='color:rgb(255, 26, 26);'> NEWS </b></b></b></h1>", unsafe_allow_html=True)
 st.write('<p style="text-align: left;font-size:15px;" ><b>Le notizie più importanti e più popolari sull\'intelligenza artificiale, accuratamente selezionate dai nostri algoritmi dotati di I.A. solo per te</b><p>', unsafe_allow_html=True)
 #st.markdown('<iframe width="100%" style="height:1620px" src="https://rss.app/embed/v1/magazine/C3ws5QRv5zQnUXwb" id="myIframe" frameborder="0"></iframe><br>', unsafe_allow_html=True)
 
@@ -120,7 +120,7 @@ argomenti_selezionati = ["Intelligenza Artificiale",
 #argomenti_selezionati = st.multiselect('Seleziona uno o più argomenti per leggere le ultime notizie sull\'intelligenza artificiale e rimanere aggiornato sugli ultimi sviluppi', argomenti,default=argomenti)
 
 
-Scelte = ["Ultime Notizie","Notizie del Momento","Notizie Popolari","Cerca le notizie su ciò che ti interessa"]
+Scelte = ["Notizie Popolari","Ultime Notizie","Notizie del Momento","Cerca le notizie su ciò che ti interessa"]
 Scelta = st.selectbox("Seleziona quali notizie vedere",Scelte)
 
 
